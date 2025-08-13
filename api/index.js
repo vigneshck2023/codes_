@@ -29,7 +29,7 @@ async function readMovieByTitle(title) {
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("🎬 Welcome to Movies API");
+  res.send("Welcome to Movies API");
 });
 
 app.get("/movies", async (req, res) => {
